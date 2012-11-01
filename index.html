@@ -28,22 +28,23 @@
       <section id="main_content">
         <h2>another list of useful unix commands</h2>
 
-<ul>
-<li>'stat' or 'fstat'</li>
-</ul><p>A new unix command that I encountered today.  Do you want more details from a file than you could ever ask for?  Try running 'stat -x ' (the command may be 'fstat' depending on your flavor of *nix.</p>
+        <ul>
+        <li>'stat' or 'fstat'</li>
+        </ul><p>A new unix command that I encountered today.  Do you want more details from a file than you could ever ask for?  Try running 'stat -x ' (the command may be 'fstat' depending on your flavor of *nix.</p>
+        
+        <p>Here is some example output:</p>
+        
+        <code>stat -x grep.c
+        
+        File: "grep.c"
+        Size: 1939         FileType: Regular File
+        Mode: (0644/-rw-r--r--)         Uid: (  501/  Yeison)  Gid: (   20/   staff)
+        Device: 1,1   Inode: 227606880    Links: 1
+        Access: Wed Oct 31 21:13:50 2012
+        Modify: Wed Oct 31 20:38:15 2012
+        Change: Wed Oct 31 20:38:15 2012
+        </code>
 
-<p>Here is some example output:</p>
-
-<pre><code>stat -x grep.c
-
-File: "grep.c"
-Size: 1939         FileType: Regular File
-Mode: (0644/-rw-r--r--)         Uid: (  501/  Yeison)  Gid: (   20/   staff)
-Device: 1,1   Inode: 227606880    Links: 1
-Access: Wed Oct 31 21:13:50 2012
-Modify: Wed Oct 31 20:38:15 2012
-Change: Wed Oct 31 20:38:15 2012
-</code></pre>
       </section>
     </div>
 
